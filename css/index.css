@@ -140,8 +140,14 @@ main {
 }
 
 main .top {
-	width: 876px;
+    width: 876px;
+    margin: 0 auto;
 	display: flex;
+}
+
+.features-and-about p {
+    margin: 22px 0;
+    font-size: 17px;
 }
 
 main .top .features-and-about {
@@ -149,4 +155,17 @@ main .top .features-and-about {
     padding-top: 36px;
     border-top: 1px solid black;
 	justify-content: flex-start;
+}
+
+main .middle {
+    width: 876px;
+    margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main .middle .middle-img {
+    width: 876px;
+    margin-top: 10.5px;
 }
