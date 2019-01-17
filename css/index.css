@@ -296,8 +296,8 @@ footer {
     }
 
     main .top {
-        width: 760px;
-        margin: 37px 0 20px 20px;
+        width: 740px;
+        margin: 37px 0 20px 0;
         display: flex;
         justify-content: space-between;
     }
@@ -314,7 +314,7 @@ footer {
 
     main .middle {
         width: 760px;
-        margin: 10px 0;
+        margin-top: 10px;
         display: flex;
         flex-direction: column;
 	    justify-content: center;
@@ -327,46 +327,54 @@ footer {
 
     main .bottom {
         width: 760px;
-        margin-top: 5px;
 	    display: flex;
 	    justify-content: space-between;
 	    align-items: center;
 	    flex-wrap: wrap;
         padding-bottom: 36px;
-	    border-top: 1px solid black;
-	    border-bottom: 1px solid black;
     }
 
     main .bottom .services, .product, .vision {
-	    width: 250px;
+        margin-top: 30px;
     }
 
-    /* main .bottom .services h2, p {
-	    padding: 0 20px;
+    main .bottom .services {
+        width: 215px;
+        margin: 30px 0 0 5px;
+        padding: 0;
     }
 
-    main .bottom .product h2, p {
-	    padding: 0 20px;
+    main .bottom .product {
+        width: 215px;
+	    margin: 30px 0 0 0;
+        padding: 0;
     }
 
-    main .bottom .vision h2, p {
-	    padding: 0 20px;
-    } */
+    main .bottom .vision {
+        width: 215px;
+	    margin: 30px 25px 0 0;
+        padding: 0;
+    }
     
     .contact {
-	    width: 700px;
+        width: 760px;
+        margin-left: 20px;
 	    display: flex;
 	    flex-direction: column;
 	    justify-content: flex-start;
     }
 
     .contact h2 {
-	    margin: 30px 10px 5px 25px;
+	    margin: 39px 10px 15px 10px;
+    }
+
+    .contect address, p {
+        margin-left: 10px;
     }
 
     footer {
-        width: 760px;
-        margin-top: 20px;
+        width: 740px;
+        margin: 28px;
 	    display: flex;
 	    justify-content: center;
     }
