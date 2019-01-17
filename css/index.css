@@ -176,28 +176,40 @@ main .bottom {
 	justify-content: space-around;
 	align-items: center;
 	flex-wrap: wrap;
-	padding-bottom: 36px;
+	padding-bottom: 37px;
 }
 
-main .bottom .services {
-    width: 270px;
+main .bottom .services, .product, .vision {
+    width: 274px;
     margin-top: 32px;
     margin-left: 3px;
     justify-content: flex-start;
     line-height: 1.1;
 }
 
-main .bottom .product {
-    width: 274px;
-    margin-top: 32px;
-    margin-left: 5px;
-    justify-content: center;
-    line-height: 1.1;
+.contact {
+	width: 880px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+    border-top: 1px solid black;
 }
-main .bottom .vision {
-    width: 274.5px;
-    margin-top: 32px;
-    margin-left: 3px;
-    justify-content: flex-end;
-    line-height: 1.1;
+
+.contact h2 {
+    margin-top: 36px;
+}
+
+address p {
+    padding: 2px 0 18px 0;
+}
+
+.contact p {
+    padding: 1px 0 15px 0;
+}
+
+footer {
+    width: 900px;
+    margin-top: 26px;
+	display: flex;
+	justify-content: center;
 }
